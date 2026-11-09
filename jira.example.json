@@ -1,0 +1,12 @@
+{
+  "provider": "jira-dc",
+  "baseUrl": "https://jira.tu-empresa.com",
+  "auth": { "type": "bearer", "token": "${JIRA_PAT}" },
+  "projects": ["SDM"],
+  "fields": {
+    "sprint": "customfield_XXXXX",
+    "storyPoints": "customfield_XXXXX",
+    "acceptanceCriteria": "customfield_XXXXX"
+  },
+  "writeMode": "confirm"
+}

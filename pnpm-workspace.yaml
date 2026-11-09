@@ -1,0 +1,5 @@
+# Deps transitivas de pi usadas solo para tipos; esbuild usa su binario precompilado.
+allowBuilds:
+  '@google/genai': false
+  esbuild: false
+  protobufjs: false
